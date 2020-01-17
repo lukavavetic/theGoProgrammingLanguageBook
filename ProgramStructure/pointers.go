@@ -21,4 +21,7 @@ func main() {
 
 	fmt.Println(name) // Matija
 	fmt.Println(*newName) // Matija
+
+	var z, y int
+	fmt.Println(&z == &z, &z == &y, &z == nil) // "true false false"
 }
